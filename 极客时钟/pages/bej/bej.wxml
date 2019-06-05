@@ -1,0 +1,17 @@
+<!--pages/bej/bej.wxml-->
+<view class='one'>
+    <image src='/image/bej1.jpg' style='width:400rpx;height:400rpx'></image>
+    <image src='/image/bej2.jpg' style='width:400rpx;height:400rpx'></image>
+</view>
+<view class='one'>
+    <image src='/image/bej3.jpg' style='width:400rpx;height:400rpx'></image>
+    <image src='/image/bej4.jpg' style='width:400rpx;height:400rpx'></image>
+</view>
+<view class='one'>
+    <image src='/image/bej5.jpg' style='width:400rpx;height:400rpx'></image>
+    <image src='/image/bej6.jpg' style='width:400rpx;height:400rpx'></image>
+</view>
+
+<view class='long'>
+    <button bindtap='onTap' class='two' hover-class="hover" size="mini">返回原界面     </button>
+</view>

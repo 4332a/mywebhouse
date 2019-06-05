@@ -1,0 +1,31 @@
+<!--pages/kong/kong.wxml-->
+<view>
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;因为添加音乐的组件实在是不会了，这里我就给大家推荐几首我喜欢的歌吧，希望大家可以试着听听！！！</text>
+</view>
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>
+<view>
+    <text>《成都》---赵雷</text>
+</view>
+<view>
+    <text>《那盏茶》---金志文</text>
+</view>
+<view>
+    <text>《Battle Symphony》---林肯公园</text>
+</view>
+<view>
+    <text>《My Love》---Westlife</text>
+</view>
+<view>
+    <text>《八十年代的歌》---赵雷</text>
+</view>
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>
+
+<view>
+    <text decode="{{true}}" class='one'>&nbsp;&nbsp;&nbsp;&nbsp;通过这几天的学习，了解了不少东西，虽然时间很短，但是学到了很多。在这里学习，给我一个感觉就是氛围真的很好，同学们都在认真学，这是在学校里看不见的，所以我也愿各位都能收获知识。最后，感谢老师们这几天的付出，你们辛苦了！同时，也恭祝各位老师、同学新年快乐，过一个好年！</text>
+</view>
+
+<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+
+<view class='long'>
+    <button bindtap='onTap' class='two' hover-class="hover" size="mini">返回原界面     </button>
+</view>

@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="avatar" src="/image/timer.jpg"></image>
+    <text class="motto">光景不待人，须臾发成丝</text>
+    <view catchtap="onTapJump" class="journey-container">
+        <text class="journey">开启极客时钟</text>
+    </view>
+</view>
