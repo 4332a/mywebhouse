@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>机票订购</title>
+	<link rel="stylesheet" type="text/css" href="basic.css">
+	<link rel="stylesheet" type="text/css" href="ticket.css">
+</head>
+<body>
+	<header id="header">
+		<div class="center">
+			<h1 class="logo">飞天网</h1>
+			<nav class="link">
+				<ul>
+					<li><a href="set.html">首页</a></li>
+					<li><a href="information.html">旅游咨讯</a></li>
+					<li class="active"><a href="ticket.html">机票订购</a></li>
+					<li><a href="scenery.html">风景欣赏</a></li>
+					<li><a href="about.html">公司简介</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="headline">
+		<div class="center">
+			<hgroup>
+				<h2>旅游咨讯</h2>
+				<h3>介绍各种最新的星系讯息，资讯要闻等 </h3>
+			</hgroup>
+		</div>
+	</div>
+	<div id="container">
+		<aside class="sidebar">
+			<div class="sidebox recommend">
+				<h2>星球推荐</h2>
+				<div class="tag">
+					<a href="###">水星(13)</a>
+					<a href="###">金星(14)</a>
+					<a href="###">火星(18)</a>
+					<a href="###">木星(13)</a>
+					<a href="###">土星(16)</a>
+					<a href="###">太阳(11)</a>
+					<a href="###">天王星(12)</a>
+					<a href="###">海王星(19)</a>
+					<a href="###">冥王星(16)</a>
+				</div>
+			</div>
+			<div class="sidebox hot">
+				<h2>热门星球</h2>
+				<div class="figure">
+					<figure>
+						<img src="pic/hot1.jpg" alt="水星六日游">
+						<figcaption>水星六日游</figcaption>
+					</figure>
+					<figure>
+						<img src="pic/hot2.jpg" alt="金星六日游">
+						<figcaption>金星六日游</figcaption>
+					</figure>
+					<figure>
+						<img src="pic/hot3.jpg" alt="火星六日游">
+						<figcaption>火星六日游</figcaption>
+					</figure>
+					<figure>
+						<img src="pic/hot4.jpg" alt="木星六日游">
+						<figcaption>木星六日游</figcaption>
+					</figure>
+					<figure>
+						<img src="pic/hot5.jpg" alt="土星六日游">
+						<figcaption>土星六日游</figcaption>
+					</figure>
+					<figure>
+						<img src="pic/hot6.jpg" alt="太阳六日游">
+						<figcaption>太阳六日游</figcaption>
+					</figure>
+					<figure>
+						<img src="pic/hot7.jpg" alt="天王星六日游">
+						<figcaption>天王星六日游</figcaption>
+					</figure>
+					<figure>
+						<img src="pic/hot8.jpg" alt="海王星六日游">
+						<figcaption>海王星六日游</figcaption>
+					</figure>
+					<figure>
+						<img src="pic/hot9.jpg" alt="冥王星六日游">
+						<figcaption>冥王星六日游</figcaption>
+					</figure>
+				 </div>
+			</div>
+			<div class="sidebox treasure">
+				<h2>旅天百宝箱</h2>
+				<div class="box">
+					<a href="###" class="trea1">天气预报</a>
+					<a href="###" class="trea2">火车票查询</a>
+					<a href="###" class="trea3">航空查询</a>
+					<a href="###" class="trea4">地铁线路查询</a>
+				</div>
+			</div>
+		</aside>
+		<div class="ticket">
+			<form action="###">
+				<h2>机票预订</h2>
+				<div class="type">
+					<p>航班类型 <mark>单程</mark> 往返</p>
+				</div>
+				<div class=" form left">
+					<p>
+						<label for="from_city">出发星球</label>
+						<input type="text" name="from_city" id="from_city" placeholder="星球名">
+					</p>
+					<p>
+						<label for="from_city">返回星球</label>
+						<input type="text" name="to_city" id="to_city" placeholder="星球名">
+					</p>
+				</div>
+				<div class="form right">
+					<p>
+						<label for="from_date">出发时间</label>
+						<input type="text" name="from_date" id="from_date" placeholder="时间/日期">
+					</p>
+					<p>
+						<label for="to_date">返回时间</label>
+						<input type="text" name="to_date" id="to_date" placeholder="时间/日期">
+					</p>
+				</div>
+				<div class="form button">
+					<p>
+						<button type="submit" class="submit">订票</button>
+					</p>
+				</div>
+			</form>
+			<div class="new">
+				<h2>最新机票</h2>
+				<ul>
+					<li>热门星球:</li>
+					<li>水星</li>
+					<li>金星</li>
+					<li>火星</li>
+					<li>木星</li>
+					<li>土星</li>
+					<li>天王星</li>
+					<li>海王星</li>
+					<li>冥王星</li>
+				</ul>
+				<table>
+					<thead>
+						<tr>
+							<th>路线</th>
+							<th>日期</th>
+							<th>价格</th>
+							<th>税费</th>
+							<th>餐食</th>
+							<th>航班</th>
+							<th>预订</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>地球-水星</td>
+							<td>1-1</td>
+							<td class="price">¥745</td>
+							<td>¥50</td>
+							<td>有</td>
+							<td>自豪航天</td>
+							<td><a href="###" class="reserve">预订</a></td>
+						</tr>
+						<tr>
+							<td>地球-金星</td>
+							<td>1-1</td>
+							<td class="price">¥780</td>
+							<td>¥55</td>
+							<td>有</td>
+							<td>自豪航天</td>
+							<td><a href="###" class="reserve">预订</a></td>
+						</tr>
+						<tr>
+							<td>地球-火星</td>
+							<td>1-1</td>
+							<td class="price">¥820</td>
+							<td>¥65</td>
+							<td>有</td>
+							<td>自豪航天</td>
+							<td><a href="###" class="reserve">预订</a></td>
+						</tr>
+						<tr>
+							<td>地球-木星</td>
+							<td>1-1</td>
+							<td class="price">¥860</td>
+							<td>¥70</td>
+							<td>有</td>
+							<td>自豪航天</td>
+							<td><a href="###" class="reserve">预订</a></td>
+						</tr>
+						<tr>
+							<td>地球-土星</td>
+							<td>1-1</td>
+							<td class="price">¥900</td>
+							<td>¥75</td>
+							<td>有</td>
+							<td>自豪航天</td>
+							<td><a href="###" class="reserve">预订</a></td>
+						</tr>
+						<tr>
+							<td>地球-天王星</td>
+							<td>1-1</td>
+							<td class="price">¥940</td>
+							<td>¥80</td>
+							<td>有</td>
+							<td>自豪航天</td>
+							<td><a href="###" class="reserve">预订</a></td>
+						</tr>
+						<tr>
+							<td>地球-海王星</td>
+							<td>1-1</td>
+							<td class="price">¥1000</td>
+							<td>¥100</td>
+							<td>有</td>
+							<td>自豪航天</td>
+							<td><a href="###" class="reserve">预订</a></td>
+						</tr>
+						<tr>
+							<td>地球-冥王星</td>
+							<td>1-1</td>
+							<td class="price">¥1100</td>
+							<td>¥110</td>
+							<td>有</td>
+							<td>自豪航天</td>
+							<td><a href="###" class="reserve">预订</a></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="7"><a href="###" class="more">加载更多航班...</a></td>
+						</tr>
+					</tfoot>
+				</table>
+		    </div>
+		</div>
+	<footer id="footer">
+		<div class="top">
+			<div class="block left">
+				<h2>合作伙伴</h2>
+				<hr>
+				<ul>
+					<li>阿波罗旅天团</li>
+					<li>盖亚旅天团</li>
+					<li>阿瑞斯旅天团</li>
+					<li>普罗米旅天团</li>
+				</ul>
+			</div>
+			<div class="block center">
+				<h2>谜团FAQ</h2>
+				<hr>
+				<ul>
+					<li>为什么宇宙这么大？</li>
+					<li>人为什么存在？</li>
+					<li>有外星生物吗？</li>
+					<li>宇宙的外面是什么？</li>
+				</ul>
+			</div>
+			<div class="block right">
+				<h2>联系方式</h2>
+				<hr>
+				<ul>
+					<li>微博：weibo.com/yuzhou</li>
+					<li>邮件：yuzhou@yuzhou.com</li>
+					<li>地址：宇宙之心</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom">Copyright ©LCKU 飞天网|苏ICP 备312314585 号|旅行社许可证：L-NJ-LW12345</div>
+	</footer>
+</body>
+</html>
