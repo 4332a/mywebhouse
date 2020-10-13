@@ -12,6 +12,9 @@ Page({
       url: '../setting/setting',
     })
   },
+  change(){
+    console.log(1);
+  },
   onShareAppMessage: function () {
     console.log("onShareAppMessage is called");
     return {
