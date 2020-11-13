@@ -1,16 +1,30 @@
 <!--pages/bej/bej.wxml-->
-<view bindtap="change">
+<view>
 	<view class='one'>
-		<image src='/image/bej1.jpg' style='width:400rpx;height:400rpx'></image>
-		<image src='/image/bej2.jpg' style='width:400rpx;height:400rpx'></image>
+		<navigator url = "../welcome/welcome?style=background: #FFEBCD;height: 100%;">
+			<image src='/image/bej1.jpg' style='width:400rpx;height:400rpx'></image>
+		</navigator>
+		<navigator url = "../welcome/welcome?style=background: #00FFFF;height: 100%;">
+			<image src='/image/bej2.jpg' style='width:400rpx;height:400rpx'></image>
+		</navigator>
 	</view>
+
 	<view class='one'>
-		<image src='/image/bej3.jpg' style='width:400rpx;height:400rpx'></image>
-		<image src='/image/bej4.jpg' style='width:400rpx;height:400rpx'></image>
+		<navigator url = "../welcome/welcome?style=background: #F0F8FF;height: 100%;">
+			<image src='/image/bej3.jpg' style='width:400rpx;height:400rpx'></image>
+		</navigator>
+		<navigator url = "../welcome/welcome?style=background: #6495ED;height: 100%;">
+			<image src='/image/bej4.jpg' style='width:400rpx;height:400rpx'></image>
+		</navigator>
 	</view>
+
 	<view class='one'>
-		<image src='/image/bej5.jpg' style='width:400rpx;height:400rpx'></image>
-		<image src='/image/bej6.jpg' style='width:400rpx;height:400rpx'></image>
+		<navigator url = "../welcome/welcome?style=background: #E6E6FA;height: 100%;">
+			<image src='/image/bej5.jpg' style='width:400rpx;height:400rpx'></image>
+		</navigator>
+		<navigator url = "../welcome/welcome?style=background: #ADD8E6;height: 100%;">
+			<image src='/image/bej6.jpg' style='width:400rpx;height:400rpx'></image>
+		</navigator>
 	</view>
 </view>
 

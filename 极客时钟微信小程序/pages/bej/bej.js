@@ -1,19 +1,17 @@
 // pages/bej/bej.js
+import { NAV_TO } from "../../utils/util"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    
   },
-  onTap:function(options){
+  onTap:function(){
     wx.switchTab({
       url: '../setting/setting',
     })
-  },
-  change(){
-    console.log(1);
   },
   onShareAppMessage: function () {
     console.log("onShareAppMessage is called");

@@ -1,4 +1,13 @@
 Page({
+    data: {
+        backgroundStyle: "background: #3197ed;height: 100%;",
+    },
+    onLoad(option){
+        // let style = decodeURIComponent(option.style) == "undefined" ? "background: #3197ed;height: 100%;" : decodeURIComponent(option.style);
+        this.setData({
+            backgroundStyle: option.style
+        })
+    },
     onTapJump: function (event) {
         wx.switchTab({
             url: "../index/index",

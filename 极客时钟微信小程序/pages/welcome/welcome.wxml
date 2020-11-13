@@ -1,4 +1,4 @@
-<view class="container">
+<view id="container" style="{{backgroundStyle}}">
     <image class="avatar" src="/image/timer.jpg"></image>
     <text class="motto">光景不待人，须臾发成丝</text>
     <view catchtap="onTapJump" class="journey-container">
